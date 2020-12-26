@@ -1,0 +1,40 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    background-color: rgb(247, 244, 244);
+}
+h1{
+    margin-left: 35%;
+    display: inline-block;
+    border-bottom: 3px dotted deeppink;
+    margin-bottom: 5px;
+    color: rgb(158, 113, 113);
+    background-color: rgb(233, 234, 236);
+}
+td{
+    font-size: 30px;
+}
+td input{
+    font-size: 20px;
+}
+td select{
+    font-size: 20px;
+}
+#health{
+    margin-left: 20px;
+}
+#math{
+    margin-left: 10px;
+}
+#submit1{
+    font-size: 30px;
+    padding: 5px;
+    width: 60%;
+    border-radius: 50px 20px 50px 20px;
+    background-color: rgb(247, 226, 184);
+}

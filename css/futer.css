@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.allfuter{
+    width: 100%;
+    height: 180px;
+    background-color: #535c68;
+    display: inline-block;
+    float: left;
+}
+.futr-div{
+    width: 30%;
+    height: 150px;
+    font-size: 25px;
+    margin-top: 20px;
+    color: blanchedalmond;
+    float: left;
+    font-family: 'Anton', sans-serif;
+}
+.futr-div img{
+    width:50%;
+    height: 140px;
+    margin-left: 20px;
+    border-radius: 200px;
+}
+#signin{
+    margin-left: 60px;
+}
+#email{
+    padding: 5px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+#password{
+    padding: 5px;
+    border-radius: 30px;
+}
+#submit{
+    padding: 5px;
+    margin-left: 100px;
+    border-radius: 30px;
+}

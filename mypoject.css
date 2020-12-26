@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mybody{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/backimg1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Slab', serif;
+}
+.my-menu{
+    position: absolute;
+    width:100%;
+    height: auto;
+    background-image: url("image/backimg2.jpg");
+    background-image: fixed;
+}
+
+.menu{
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+.menu li{
+    list-style: none;
+    width: 120px;
+    height: 50px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+
+.menu li a{
+    color: wheat;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.s-li{
+    margin-right: 20px;
+}
+.menu li a:hover{
+    border-bottom: 1px solid springgreen;
+}
+.logo{
+    width: 100px;
+    float: left;
+    border-radius: 150px;
+    margin-left: 20px;
+}
+.menu li ul a{
+    background-color: rgb(115, 115, 192);
+}
+.menu ul{
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+    margin: 0;
+}
+.rithtnav{
+    margin-top: 30px;
+   
+}
+#search{
+    padding:8px 15px;
+    border-radius: 20px;
+}
+.serch-btn{
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.main-contant-header{
+    transform: translatey(400px);
+    margin-left: 40px;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    color: blanchedalmond;
+}
+
+h2{
+    font-size: 200%;
+}
+ .colorchange{
+        animation: colorchanglogo 2s infinite;
+    }
+@keyframes colorchanglogo{
+    0%{color: red;}
+    25%{color: rgb(141, 177, 10);}
+    50%{color: saddlebrown;}
+    100%{color: slateblue;}
+}
+.btn{
+    font-size: 200%;
+    text-decoration: none;
+    border: 1px solid purple;
+    border-radius: 50px;
+    background-color: snow;
+}
+.btn-full{
+    margin-right: 20px;
+    padding: 8px;
+}
+.btn-con{
+    padding: 8px;
+}
+.student-pik{
+    transform: translateY(251px);
+    margin-left:947px;
+}
+.btn-full:hover{
+    background-color: rgb(200, 230, 141);
+}
+.btn-con:hover{
+    background-color: violet;
+}
+#why-choos h1{
+    border-bottom: 2px solid slateblue;
+    margin-bottom: 2px;
+    display: inline-block;
+    font-size: 200%;
+    color: rgb(192, 134, 192);
+}
+.div-section1{
+    width: 23%;
+    height: 410px;
+    margin: 12px;
+    margin-top: 20px;
+    float: left;
+    padding: 30px;
+    font-family: 'Merriweather', serif;
+
+}
+.icon{
+    width: 180px;
+    height: 180px;
+    border: 1px solid rgb(179, 71, 71);
+    border-radius:100px ;
+    background-color: rgb(179, 71, 71);
+    padding: 18%;
+}
+.icon img {
+    width: 90px;
+    height: 90px;
+    border-radius:50px ;
+    transition-duration: 1s;
+    }
+.icon img:hover{
+     width: 60px;
+     height: 60px;
+     margin: 20px;
+}  
+/*##########details########*/
+.section2{
+    display: inline-block;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(123, 103, 141);
+}
+.section2 h1{
+    width: 100%;
+    margin-bottom: 2px;
+    display: inline-block;
+    font-size: 200%;
+    color: rgb(192, 134, 192);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.dev-section2{
+  width: 30%;
+  height: 70px;
+  margin: 20px;
+  float: left;
+  font-family: 'Merriweather', serif;
+}
+.dev-section2 img{
+    width:100%;
+    margin-top: 30px;  
+}
+.dev-section2 .lab-img{
+    width: 88%;
+}
+.dev-section2 .admission-img{
+    width: 108.5%;
+}
+.section2 h3{
+    text-align: center;
+    font-size: 30px;
+}
+.OURPARENTSSAYS{
+ width: 100%;
+ height: 570px;   
+display: inline-block;
+
+}
+.div-section3{
+    width: 32%;
+    height:290px;
+    border: 3px solid sienna;
+    margin-top: 7%;
+    margin-left: 1%;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    float: left;
+    background-color:rgb(148, 148, 204);
+}
+.div-section3 h3{
+    text-align: center;
+    margin-top: 2%;
+}
+.OURPARENTSSAYS h1{
+    font-size: 40px;
+    margin-left: 40%;
+    color: blueviolet;
+    border-bottom: 3px solid sienna;
+    display: inline-block;
+}
+
+.futer-div{
+    width: 100%;
+    height: 180px;
+}

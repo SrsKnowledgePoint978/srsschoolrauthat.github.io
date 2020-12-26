@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(132, 132, 211);
+}
+h1{
+    text-align: center;
+    color: rgb(173, 36, 139);
+}
+table{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.editbtn{
+    background-color: green;
+    font-size: 20px;
+}
+#deletbtn{
+    background-color: red;
+    font-size: 30px;
+}

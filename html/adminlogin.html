@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin login</title>
+    <style>
+        body{
+            margin: 0;padding: 0;
+            background-image: url("../img/admin-backimg.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 120%;
+        }
+        table{
+            width: 20%;
+            height: auto;
+            background-color: black;
+            border: 10px solid palevioletred;
+            border-radius: 25px;
+            background: rgba(0,0,0,0.7);
+        }
+        #btn{
+            width: 40%;
+            background-color: yellow;
+            height: 40px;
+            font-size: 30px;
+            color: rgb(214, 68, 68);
+            border: 0;
+            outline: 0;
+            border: 2px solid pink;
+            border-radius: 10px;
+        }
+        #user{
+            width: 300px;
+            font-size: 25px;
+            color: cornsilk;
+            background-color: darkcyan;
+            border: 0px;
+            outline: 0;
+            background: transparent;
+            border-bottom: 3px solid wheat;
+        }
+        #pass{
+            width: 300px;
+            font-size: 25px;
+            color: cornsilk;
+            background-color: darkcyan;
+            border: 0px;
+            outline: 0;
+            background: transparent;
+            border-bottom: 3px solid wheat;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body >
+    <br><br><br><br>
+    <form action="../html/databasepage.html"  onsubmit="return validation()">
+    <table border="0" align="center" cellspacing="15px">
+        <tr><td><img src="../img/Admin.ico"></td></tr>
+
+
+        <tr><td><input type="text" id="user" placeholder="Admin Id"><br>
+            <span id="userr"></span>
+        </td> </tr>
+
+
+        <tr><td><input type="password" id="pass" placeholder="Password"><br>
+            <span id="passs"></span>
+        </td> </tr>
+
+        <tr><td align="center"><input type="submit"  id="btn"></td></tr>
+    </table>
+    </form>
+    <script type="text/javascript">
+
+            function validation()
+            {
+                var user=document.getElementById('user').value;
+                var pass=document.getElementById('pass').value;
+                var id="rameshyadav";
+                var password="ramson";
+                if(id==user && password==pass)
+                    
+                    {
+                     // document.getElementById('passs').innerHTML="your id and password was match";
+                    }
+                else{
+                    document.getElementById('passs').innerHTML="your Id and Password was nat match";
+                      return false;
+                }    
+                       
+
+            }       
+    </script>
+</body>
+</html>

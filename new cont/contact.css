@@ -1,0 +1,53 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+#tmain{
+width: 100%;height: 100vh;
+background-image: url("contback.png");
+display: inline-block;
+}
+.location{
+    width: 30%;height: 50%;
+    background-image: url("location.png");
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 180px;
+}
+.callus{
+    width: 30%;height: 50%;
+    background-image: url("callus.png");
+    background-size: 100% 100%;
+    float:left;
+    margin-top: 180px;
+}
+.gmail{
+    width: 30%;height: 50%;
+    background-image: url("gmail\ \(2\).png");
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 180px;
+}
+h1{
+    text-align: center;
+    margin-top: 170px;
+    color: azure;
+}
+p{
+    margin-left: 125px;
+    box-sizing: border-box;
+    font-size: x-large;
+    color: bisque;
+}    
+.ramesh{
+    margin-left: 100px;
+    box-sizing: border-box;
+    font-size: x-large;
+    color: bisque;
+}
+h2{
+    text-align: center;
+    transform: translateY(100px);font-size: xx-large;
+    text-shadow: 2px 2px 5px white;
+}

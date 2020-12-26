@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="singnup.css">
+
+ <style>
+
+ </style>
+
+</head>
+<body>
+    <div class="mainhead">
+    <form action="#"  onsubmit="return validation()">
+        <br><br>
+        <h1><center>Sign up</center ></h1>
+        <table align="center">
+        
+            <br><br><br><br><br><br><br>
+            <tr><td>User Name</td><td><input type="text" id="user" placeholder="User Name"><br>
+                <span id="userr"></span>
+            </td> </tr>
+            <tr><td>Email Address</td><td><input type="email"id="email" placeholder="Email Address"autocomplete="off"><br>
+            <span id="emaill"></span>
+            </td> </tr>
+            <tr><td>Password</td><td><input type="password" id="pass" placeholder="password"><br>
+            <span id="passs"></span>
+            </td> </tr>
+            <tr><td>Conform password</td><td><input type="text" id="conpass" placeholder="Conform password"><br>
+            <span id="conpasss"></span>
+            </td> </tr>
+            <tr align="center"><td colspan="2"><input type="submit" id="subbtn"></td></tr>
+        </table>
+    </form>
+    </div>
+
+<script type="text/javascript">
+     
+     function validation(){
+         var user=document.getElementById('user').value;
+         var email=document.getElementById('email').value;
+         var pass=document.getElementById('pass').value;
+         var conpass=document.getElementById('conpass').value;
+             if(user=="")
+                {
+                    document.getElementById('userr').innerHTML="Error:-please Enter UserName In The Box";
+                    return false;
+                }    
+                    if(user.length<2)
+                      {
+                        document.getElementById('userr').innerHTML="Error:-please Enter more than one character In The Box";
+                        return false;
+                        }
+                    if(!isNaN(user))
+                      {
+                        document.getElementById('userr').innerHTML="Error:-You Doesn't  Enter Number  In The Box";
+                        return false;
+                        } 
+             else
+                {
+                    document.getElementById('userr').innerHTML="";
+                }   
+                
+                
+
+              if(email=="")
+                {
+                    document.getElementById('emaill').innerHTML="Error:-please Enter Email Address In The Box";
+                    return false;
+                    
+                 }
+                 else
+                {
+                    document.getElementById('emaill').innerHTML="";
+                }  
+
+
+
+                if(pass=="")
+                {
+                    document.getElementById('passs').innerHTML="Error:-please Enter password In The Box";
+                    return false;
+                 }
+                 else
+                {
+                    document.getElementById('passs').innerHTML="";
+                } 
+                
+                
+
+                 if(conpass=="")
+                {
+                    document.getElementById('conpasss').innerHTML="Error:-please Enter Conform Password In The Box";
+                    return false;
+                 }
+                 else
+                {
+                    document.getElementById('conpasss').innerHTML="";
+                }  
+
+             
+     }
+
+</script>
+
+</body>
+</html>
